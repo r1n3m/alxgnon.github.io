@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+body {
+    background-image: url("bg.png");
+    color: #d8cac0;
+    font-family:
+        "Average Sans",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+#container {
+    background-color: rgba(35, 30, 40, 0.6);
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    text-align: center;
+}
+
+#stripe {
+    background-color: #d8cac0;
+    opacity: 0.2;
+    z-index: -1;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    height: 20px;
+    width: 0%;
+}
+
+#name {
+    margin-top: 150px;
+    font-size: 100px;
+}
+
+#name .fade {
+    display: inline-block;
+    letter-spacing: 0;
+}
+
+.bar {
+    overflow: hidden;
+}
+
+.bar span {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#langbar {
+    font-size: 50px;
+    height: 80px;
+}
+
+#linkbar {
+    font-size: 40px;
+    height: 0;
+}
+
+#lang_en { color: #e8bab0 }
+#lang_fr { color: #c8bae0 }
+#btn_github { color: #c8bae0 }
+#btn_hackerrank { color: #c8eab0 }
+#btn_email { color: #e8bab0 }
+
+.aboutme {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-size: 25px;
+    text-align: justify;
+    opacity: 0;
+}

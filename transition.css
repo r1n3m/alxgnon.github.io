@@ -1,0 +1,73 @@
+#stripe {
+    -webkit-transition: width .5s ease-in 1s;
+    -moz-transition: width .5s ease-in 1s;
+    -ms-transition: width .5s ease-in 1s;
+    -o-transition: width .5s ease-in 1s;
+    transition: width .5s ease-in 1s;
+}
+#container.clicked #stripe {
+    width: 100%;
+}
+
+#name {
+    -webkit-transition: margin-top 1s ease;
+    -moz-transition: margin-top 1s ease;
+    -ms-transition: margin-top 1s ease;
+    -o-transition: margin-top 1s ease;
+    transition: margin-top 1s ease;
+}
+#container.clicked #name {
+    margin-top: 50px;
+}
+
+#name .fade {
+    -webkit-transition: opacity 1s linear, letter-spacing 3s ease .8s;
+    -moz-transition: opacity 1s linear, letter-spacing 3s ease .8s;
+    -ms-transition: opacity 1s linear, letter-spacing 3s ease .8s;
+    -o-transition: opacity 1s linear, letter-spacing 3s ease .8s;
+    transition: opacity 1s linear, letter-spacing 3s ease .8s;
+}
+#container.clicked #name .fade {
+    opacity: 0;
+    letter-spacing: -100px;
+}
+
+.bar {
+    -webkit-transition: height .5s ease 1.4s;
+    -moz-transition: height .5s ease 1.4s;
+    -ms-transition: height .5s ease 1.4s;
+    -o-transition: height .5s ease 1.4s;
+    transition: height .5s ease 1.4s;
+}
+#container.clicked #langbar {
+    height: 0;
+}
+#container.clicked #linkbar {
+    height: 70px;
+}
+
+.bar span {
+    -webkit-transition: -webkit-transform .1s ease;
+    -moz-transition: -moz-transform .1s ease;
+    -ms-transition: -ms-transform .1s ease;
+    -o-transition: -o-transform .1s ease;
+    transition: transform .1s ease;
+}
+.bar span:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.aboutme {
+    -webkit-transition: opacity .5s ease 2s;
+    -moz-transition: opacity .5s ease 2s;
+    -ms-transition: opacity .5s ease 2s;
+    -o-transition: opacity .5s ease 2s;
+    transition: opacity .5s ease 2s;
+}
+#container.clicked .aboutme {
+    opacity: 1;
+}
