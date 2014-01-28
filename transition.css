@@ -1,3 +1,11 @@
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
 #stripe {
     -webkit-transition: width .5s ease-in 1s;
     -moz-transition: width .5s ease-in 1s;

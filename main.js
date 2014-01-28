@@ -1,3 +1,5 @@
+document.body.className = "";
+
 var translations = [
     ["tr-email", "courriel"],
     ["aboutme",
